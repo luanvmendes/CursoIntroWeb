@@ -17,14 +17,14 @@
 		background: darkcyan !important;
 	}
 	.topo{
-		width: 100%;
-		height: 350px;
-	}
-	/*slide principal*/
-	.carousel-inner img{
 		width: 80%;
 		height: 350px;
 		margin-left: 10%;
+	}
+	/*slide principal*/
+	.carousel-inner img{
+		width: 100%;
+		height: 350px;
 	}
 	/*class sticky para fixar o menu*/
 	.sticky {
@@ -177,14 +177,18 @@
 	}
 	/*Slide Eventos*/
 	.eventos .carousel-inner img{
-		width: 100%;
+		width: 90%;
 		height: 400px;
-		margin-left: 0;
+		margin-left: 5%;
+	}
+	.eventos .carousel-control-next, .eventos .carousel-control-prev{
+		background: black;
+		width: 5%;
 	}
 
 	/*Mobile*/
 	@media screen and (max-width: 1000px) {
-		.menu-principal, .topo img, .conteudo .localizacao, .conteudo .img-right, .conteudo .img-left, .conteudo .eventos{
+		.menu-principal, .topo, .conteudo .localizacao, .conteudo .img-right, .conteudo .img-left, .conteudo .eventos{
 			width: 100%;
 			margin: 0;
 		}
@@ -212,7 +216,7 @@
 			display: block;
 		}
 		.fa{
-			padding-right: 5%;
+			padding-right: 2%;
 		}
 	}
 
