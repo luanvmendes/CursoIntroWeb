@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/*
+	Nome: Estilo da Home;
+	Data: 23/01/2017;
+	Descrição: Versão Inicial;
+	Versão:0.1;
+	Autor: Luan;
+	Autor URI:;
+*/
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		background: darkcyan !important;
+	}
+	.topo{
+		width: 100%;
+		height: 350px;
+	}
+	/*slide principal*/
+	.carousel-inner img{
+		width: 80%;
+		height: 350px;
+		margin-left: 10%;
+	}
+	/*class sticky para fixar o menu*/
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+    	z-index: 999;
+	}
+	.menu-principal{
+		width: 80%;
+		margin-left: 10%;
+		background: black;
+		display: table;
+	}
+	.menu-principal ul{
+		list-style: none;
+		font-size: 25px;
+		width: 100%;
+	}
+	.menu-principal ul li{
+		float: left;
+		width: 25%;
+		text-align: center;
+		padding: 2% 0;
+	}
+	.menu-principal ul li a{
+		color: white;
+		text-decoration: none;
+		font-family: 'Macondo', cursive;
+	}
+	.menu-principal ul li:hover{
+		background: darkcyan;
+		border: solid 0.5px white;
+	}
+	.conteudo{
+		width: 100%;
+		display: table;
+	}
+	.conteudo article{
+		width: 59.7%;
+		margin-left: 10%;
+		padding-bottom: 2%;
+		float: left;
+		background: white;
+		text-align: justify;
+	}
+	.conteudo article h1{
+		font-family: 'Cookie', cursive;
+		font-size: 40px;
+		padding: 2%;
+	}
+	.conteudo article h2{
+		font-family: 'Crete Round', serif;
+		font-weight: normal;
+		font-size: 20px;
+		padding: 0 2%;
+	}
+	.conteudo aside{
+		width: 20%;
+		background: white;
+		float: left;
+		border-left: solid darkcyan;
+	}
+	.conteudo aside .redes-sociais{
+		padding: 0 2%;
+		font-family: 'Macondo', cursive;
+		text-align: center;
+	}
+	.conteudo aside .redes-sociais iframe{
+		width: 100%;
+		margin-bottom: 2%;
+	}
+	.conteudo aside .redes-sociais h3{
+		margin: 4% 0;
+	}
+	.rodape{
+		float: left;
+		background: black;
+		width: 100%;
+		padding: 2% 0;
+		text-align: center;
+		color: white;
+		font-family: 'Macondo', cursive;
+		font-size: 20px;
+	}
+	.rodape a{
+		text-decoration: none;
+		color: white;
+	}
+	.rodape a:hover{
+		text-decoration: underline;
+	}
+	/*Local*/
+	.conteudo .localizacao, .conteudo .eventos{
+		width: 80%;
+		margin-left: 10%;
+		background: white;
+	}
+	.conteudo .localizacao h2{
+		font-family: 'Crete Round', serif;
+		font-size: 18px;
+		font-weight: normal;
+		padding: 2% 4%;
+		margin-bottom: 0;
+	}
+	/*Turismo*/
+	.conteudo .img-right, .conteudo .img-left{
+		width: 80%;
+		padding: 2% 0;
+		border-top: solid darkcyan;
+	}
+	.img-right img{
+		float: right;
+		width: 25%;
+		padding: 0 2%;
+	}
+	.img-left img{
+		float: left;
+		width: 25%;
+		padding: 0 2%;
+	}
+	.img-right  ul li, .img-left ul li{
+		display: inline;
+		margin-left: 2%;
+		font-family: 'Crete Round', serif;
+	}
+	.img-right  ul li a, .img-left ul li a{
+		text-decoration: none;
+		color: black;
+	}
+	.img-right h3, .img-left h3{
+		font-family: 'Crete Round', serif;
+		font-size: 18px;
+		font-weight: normal;
+		padding: 2% 2%;
+		text-align: justify;
+	}
+	.conteudo .img-right h2, .conteudo .img-left h2{
+		padding: 0 2%;
+		font-weight: bold;
+	}
+	/*Eventos*/
+	.conteudo .eventos{
+		padding: 2%;
+		padding-bottom: 4%;
+	}
+	.conteudo .eventos h3{
+		font-family: 'Crete Round', serif;
+		padding-bottom: 2%;
+	}
+	/*Slide Eventos*/
+	.eventos .carousel-inner img{
+		width: 100%;
+		height: 400px;
+		margin-left: 0;
+	}
+
+	/*Mobile*/
+	@media screen and (max-width: 1000px) {
+		.menu-principal, .topo img, .conteudo .localizacao, .conteudo .img-right, .conteudo .img-left, .conteudo .eventos{
+			width: 100%;
+			margin: 0;
+		}
+		.conteudo article{
+			width: 100%;
+			margin: 0;
+		}
+		.conteudo aside{
+			width: 100%;
+			border: none;
+		}
+		.conteudo aside .redes-sociais iframe{
+			width: initial;
+		}
+		.img-left img, .img-right img{
+			width: 50%;
+			float: none;
+			margin: 0 25%;
+			padding: 0;
+		}
+		.img-right h2, .img-left h2{
+			text-align: center;
+		}
+		.img-right  ul li, .img-left ul li{
+			display: block;
+		}
+		.fa{
+			padding-right: 5%;
+		}
+	}
+
+	/*ícones*/
+	.fa-facebook-official{
+		color: darkblue;
+	}
+	.fa-phone-square{
+		color: lime;
+	}
+	.fa-envelope{
+		color: silver;
+	}
