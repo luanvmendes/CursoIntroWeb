@@ -14,7 +14,7 @@
 	}
 	.topo{
 		width: 100%;
-		height: 450px;
+		height: 200px;
 	}
 	.backTop{
 		background: transparent;
@@ -27,9 +27,9 @@
 		display: none;
 	}
 	/*slide principal*/
-	.carousel-inner img{
+	.topo .carousel-inner img{
 		width: 100%;
-		height: 450px;
+		height: 200px;
 	}
 	.menu-principal.sticky{
 		background: darkcyan;
@@ -87,21 +87,43 @@
 		font-size: 20px;
 	}
 	/*EVENTOS*/
-	.eventos h2, .eventos h4, .onibus h2, .onibus h3, .onibus h4, .links-uteis h2{
+	.eventos h2, .eventos h4, .onibus h2, .onibus h3, .onibus h4, .links-uteis h2, .agenda .btn{
 		font-family: 'Crete Round', serif;
+	}	
+	.modal .modal-dialog {
+		max-width: 90%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.agenda-mobile {
+		display: none;
+	}
+	.agenda .btn {	
+		background-color: darkcyan;
+		color: #fff;
+		text-transform: uppercase;
+		white-space: unset;
+	}
+	.agenda .btn:hover, .agenda .btn:focus {
+		background-color: #3d3d3d;
+	    transform: translateY(-5px) scale(1.05);
+	}
+	.modal.fade.show.in {
+		padding-left: unset !important;
 	}
 
 	/*Slide Eventos*/
 	.eventos .carousel.slide{
-		height: 405px;
+		height: 185px;
 	}
 	.eventos .carousel-inner img{
 		width: 90%;
-		height: 400px;
+		height: 180px;
 	}
 	.eventos .carousel-control-next, .eventos .carousel-control-prev{
 		width: 5%;
-		height: 400px;
+		height: 180px;
 	}
 	.eventos .carousel-control-next-icon{
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
@@ -221,11 +243,50 @@
 		color: white;
 	}
 
-	/*Mobile*/
-	@media screen and (max-width: 1000px) {
-		.topo, .carousel-inner img{
-			height: 300px;
+	/*Mobile*/	
+	@media (min-width: 576px) {
+		.topo, .topo .carousel-inner img, .eventos .carousel-inner img, .eventos .carousel-control-next, .eventos .carousel-control-prev{
+			height: 250px;
 		}
+		.eventos .carousel.slide{
+			height: 255px;
+		}
+	}
+	 @media screen and (max-width: 640px) {
+	  .agenda-desk{
+	  display: none;
+	  }
+	  .agenda-mobile{
+	  display: block;
+	  }
+	}
+	@media (min-width: 768px) {
+		.topo, .topo .carousel-inner img, .eventos .carousel-inner img, .eventos .carousel-control-next, .eventos .carousel-control-prev{
+			height: 350px;
+		}
+		.eventos .carousel.slide{
+			height: 355px;
+		}
+	}
+	@media (min-width: 992px) {
+		.eventos .carousel.slide{
+			height: 405px;
+		}
+		.eventos .carousel-inner img, .eventos .carousel-control-next, .eventos .carousel-control-prev{
+			height: 400px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.topo, .topo .carousel-inner img{
+			height: 450px;
+		}
+		.eventos .carousel.slide{
+			height: 505px;
+		}
+		.eventos .carousel-inner img, .eventos .carousel-control-next, .eventos .carousel-control-prev{
+			height: 500px;
+		}		
 	}
 
 	/*ícones*/

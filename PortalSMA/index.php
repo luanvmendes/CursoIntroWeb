@@ -35,10 +35,10 @@
 				</div>
 			</div>
 		</section>
-		<section class="eventos bg-white">
-			<div class="container-fluid pt-4">
-				<div class="row">
-					<div class="col-md-8 text-center">						
+		<section class="eventos bg-light p-4">
+			<div class="container bg-white rounded ">
+				<div class="row pt-4">
+					<div class="col-md-12 text-center">						
 						<h2>Próximos Eventos</h2>
 						<div id="navegar" class="carousel slide" data-ride="carousel">
 							<ul class="carousel-indicators">
@@ -76,9 +76,42 @@
 								<span class="carousel-control-next-icon"></span>
 							</a>
 						</div>
-					</div>
-					<div class="col-md-4 pt-5 agenda">
-						<iframe src="https://calendar.google.com/calendar/embed?showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7q2bcgd1eaqo9upqkmad3bhfuo%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FSao_Paulo" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+						<div class="col-md-12 agenda">
+				          <!-- Button to Open the Modal -->
+				          <button type="button" class="btn btn-lg mt-5" data-toggle="modal" data-target="#calendar">
+				            Visualizar Google Agenda
+				          </button>
+
+				          <!-- The Modal -->
+				          <div class="modal fade" id="calendar">
+				            <div class="modal-dialog modal-dialog-centered">
+				              <div class="modal-content">
+				              
+				                <!-- Modal Header -->
+				                <div class="modal-header">
+				                  <h4 class="modal-title">Eventos - São Miguel Arcanjo</h4>
+				                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				                </div>
+				                
+				                <!-- Modal body -->
+				                <div class="modal-body">
+				                  <div class="agenda-mobile">
+				                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7q2bcgd1eaqo9upqkmad3bhfuo%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FSao_Paulo" style="border-width:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
+				                  </div>
+				                  <div class="agenda-desk">
+				                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7q2bcgd1eaqo9upqkmad3bhfuo%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=America%2FSao_Paulo" style="border-width:0" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+				                  </div>
+				                </div>
+				                
+				                <!-- Modal footer -->
+				                <div class="modal-footer">
+				                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+				                </div>
+				                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
 					</div>
 					<div class="col-md-12 pb-4 pb-md-5 share">
 						<h4>Tem fotos da nossa cidade? Que tal compartilhar conosco?</h4>
