@@ -9,6 +9,10 @@
 	Autor URI:;
 */
 
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
 	body{
 		background-color: darkcyan !important;
 	}
@@ -89,7 +93,16 @@
 	/*EVENTOS*/
 	.eventos h2, .eventos h4, .onibus h2, .onibus h3, .onibus h4, .links-uteis h2, .agenda .btn{
 		font-family: 'Crete Round', serif;
-	}	
+	}
+	.modal.fade.show {
+		padding-right: unset !important;
+	}
+	.modal-dialog-centered {
+		min-height: calc(100% - (.5rem * 2));
+	}
+	.modal-dialog{
+		margin: .5rem;
+	}
 	.modal .modal-dialog {
 		max-width: 90%;
 		width: 90%;
@@ -108,9 +121,6 @@
 	.agenda .btn:hover, .agenda .btn:focus {
 		background-color: #3d3d3d;
 	    transform: translateY(-5px) scale(1.05);
-	}
-	.modal.fade.show.in {
-		padding-left: unset !important;
 	}
 
 	/*Slide Eventos*/
@@ -159,7 +169,7 @@
 		color: darkcyan;
 	}
 /*turismo*/
-	.container.rounded{
+	.container.rounded, .container-fluid.rounded{
 		box-shadow: 5px 5px 5px #ccc;
 	}
 	.quadro ul li{

@@ -18,20 +18,26 @@
 	<body>		
 		<?php include ("../includes/menu.html"); ?>
 		<section class="localizacao bg-light py-5">
-			<div class="container bg-white py-3 rounded">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-5">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233395.18740051505!2d-48.150089057080095!3d-23.932142201842222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5abd1c60024d5%3A0xf771fc528661b563!2sSao+Miguel+Arcanjo%2C+S%C3%A3o+Miguel+Arcanjo+-+SP%2C+18230-000!5e0!3m2!1spt-BR!2sbr!4v1516818331357" width=100% height="350" frameborder="0" allowfullscreen></iframe>
+					<div class="col-12">
+						<div class="container-fluid bg-white py-3 rounded">
+							<div class="row">
+								<div class="col-md-5">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233395.18740051505!2d-48.150089057080095!3d-23.932142201842222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5abd1c60024d5%3A0xf771fc528661b563!2sSao+Miguel+Arcanjo%2C+S%C3%A3o+Miguel+Arcanjo+-+SP%2C+18230-000!5e0!3m2!1spt-BR!2sbr!4v1516818331357" width=100% height="350" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-7 local-texto">
+									<h2 class="text-justify">
+										O município de São Miguel Arcanjo está localizado na região Sudoeste e na 19ª Região Administrativa do Estado de São Paulo e encontra-se a uma altitude de 659 metros do nível do mar.<br>
+										Em linha reta, até a Capital são 143 km; Pela rodovia Castelo Branco são 200 km.<br>
+										Incluindo o Parque Estadual Carlos Botelho, sua extensão territorial chega a 1.081 km² e tem como principais rios o Rio do Turvo, Rio Taquaral, Ribeirão São Miguel, Guarupu, Rio Acima e Córrego do Pinhalzinho.
+									</h2>
+								</div>
+							</div>				
+						</div>
 					</div>
-					<div class="col-md-7 local-texto">
-						<h2 class="text-justify">
-							O município de São Miguel Arcanjo está localizado na região Sudoeste e na 19ª Região Administrativa do Estado de São Paulo e encontra-se a uma altitude de 659 metros do nível do mar.<br>
-							Em linha reta, até a Capital são 143 km; Pela rodovia Castelo Branco são 200 km.<br>
-							Incluindo o Parque Estadual Carlos Botelho, sua extensão territorial chega a 1.081 km² e tem como principais rios o Rio do Turvo, Rio Taquaral, Ribeirão São Miguel, Guarupu, Rio Acima e Córrego do Pinhalzinho.
-						</h2>
-					</div>
-				</div>				
-			</div>
+				</div>
+			</div>			
 		</section>
 		<?php include ("../includes/footer.html"); ?>
 	</body>

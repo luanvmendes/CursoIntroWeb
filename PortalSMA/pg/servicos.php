@@ -24,7 +24,7 @@
 						<!-- Widget Previs&atilde;o de Tempo CPTEC/INPE --><iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="http://www.cptec.inpe.br/widget/widget.php?p=4997&w=h&c=008b8b&f=ffffff" height="200px" width="215px"></iframe><noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/4997">São Miguel Arcanjo/SP</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
 					</div>
 					<div class="col-lg-10 text-center onibus">
-						<div class="container bg-white py-3 rounded">
+						<div class="container-fluid bg-white py-3 rounded">
 							<h2>Horário de Ônibus</h2>
 							<div class="row">
 								<div class="col-md-6 mb-2">
@@ -82,40 +82,46 @@
 			</div>
 		</section>
 		<section class="links-uteis pb-5 bg-light">
-			<div class="container bg-white py-3 rounded">
-				<h2>Links Úteis</h2>
-				<ul class="p-0">
-					<div class="row">
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/secretariamunicipaldeculturaeturismosma" target="_blank">Secretaria Municipal de Cultura e Turismo de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/secretariamunicipaldeeducacaodesma" target="_blank">Secretaria Municipal de Educação de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/Secretaria-Municipal-de-Meio-Ambiente-de-S%C3%A3o-Miguel-Arcanjo-1689267774417564/" target="_blank">Secretaria Municipal de Meio Ambiente de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/Secretaria-de-Assistência-e-Desenvolvimento-Social-de-São-Miguel-Arcanjo-1399506123619034" target="_blank">Secretaria de Assistência e Desenvolvimento Social</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/sindicatoruralsma/" target="_blank">Sindicato Rural Patronal de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/pkariga/" target="_blank">Cooperativa Agrícola Sul Brasil de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/registrosaomiguelarcanjo" target="_blank">Cartório de Registro de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6 mb-3">
-							<li><a href="https://www.facebook.com/Associa%C3%A7%C3%A3o-Comercial-de-S%C3%A3o-Miguel-Arcanjo-1755624531397620" target="_blank">Associação Comercial de São Miguel Arcanjo</a></li>
-						</div>
-						<div class="col-md-6">
-							<li><a href="https://www.facebook.com/vagassaomiguel/" target="_blank">Empregos em São Miguel Arcanjo e região</a></li>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="container-fluid bg-white py-3 rounded">
+							<h2>Links Úteis</h2>
+							<ul class="p-0">
+								<div class="row">
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/secretariamunicipaldeculturaeturismosma" target="_blank">Secretaria Municipal de Cultura e Turismo de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/secretariamunicipaldeeducacaodesma" target="_blank">Secretaria Municipal de Educação de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/Secretaria-Municipal-de-Meio-Ambiente-de-S%C3%A3o-Miguel-Arcanjo-1689267774417564/" target="_blank">Secretaria Municipal de Meio Ambiente de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/Secretaria-de-Assistência-e-Desenvolvimento-Social-de-São-Miguel-Arcanjo-1399506123619034" target="_blank">Secretaria de Assistência e Desenvolvimento Social</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/sindicatoruralsma/" target="_blank">Sindicato Rural Patronal de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/pkariga/" target="_blank">Cooperativa Agrícola Sul Brasil de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/registrosaomiguelarcanjo" target="_blank">Cartório de Registro de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6 mb-3">
+										<li><a href="https://www.facebook.com/Associa%C3%A7%C3%A3o-Comercial-de-S%C3%A3o-Miguel-Arcanjo-1755624531397620" target="_blank">Associação Comercial de São Miguel Arcanjo</a></li>
+									</div>
+									<div class="col-md-6">
+										<li><a href="https://www.facebook.com/vagassaomiguel/" target="_blank">Empregos em São Miguel Arcanjo e região</a></li>
+									</div>
+								</div>
+							</ul>
 						</div>
 					</div>
-				</ul>
-			</div>
+				</div>
+			</div>			
 		</section>
 		<?php include ("../includes/footer.html"); ?>
 	</body>

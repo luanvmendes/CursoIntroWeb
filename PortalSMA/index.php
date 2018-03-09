@@ -4,7 +4,6 @@
 		<title>SÃO MIGUEL ARCANJO</title>
 		<meta charset="utf-8" />
 		<link type="image/png" href="logo.png" rel="shortcut icon" />
-		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 		<meta name="description" content="Página dedicada à cidade de São Miguel Arcanjo" />
 		<meta name="keywords" content="são miguel arcanjo, santuário, capital da uva" />
 		<meta name="author" content="Luan" />
@@ -17,6 +16,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<!-- Ícones -->
 		<script src="https://use.fontawesome.com/8ecc1aa731.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 	</head>
 	<body>
 		<?php include ("includes/menu.html"); ?>
