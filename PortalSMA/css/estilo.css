@@ -16,6 +16,9 @@
 	body{
 		background-color: darkcyan !important;
 	}
+	h2, h3, h4 {
+		font-family: 'Crete Round', serif;
+	}
 	.topo{
 		width: 100%;
 		height: 200px;
@@ -86,14 +89,10 @@
 		font-size: 40px;
 	}
 	.intro h3{
-		font-family: 'Crete Round', serif;
 		font-weight: normal;
 		font-size: 20px;
 	}
 	/*EVENTOS*/
-	.eventos h2, .eventos h4, .onibus h2, .onibus h3, .onibus h4, .links-uteis h2, .agenda .btn{
-		font-family: 'Crete Round', serif;
-	}
 	.modal.fade.show {
 		padding-right: unset !important;
 	}
@@ -172,6 +171,10 @@
 	.container.rounded, .container-fluid.rounded{
 		box-shadow: 0 1px 15px 1px #ccc;
 	}
+	.quadro h2 {
+		font-size: 25px;
+		margin-top: .5rem;
+	}
 	.quadro ul li{
 		display: block;
 		font-size: 20px;
@@ -181,7 +184,6 @@
 		color: black;
 	}
 	.quadro h3{
-		font-family: 'Crete Round', serif;
 		font-size: 18px;
 	}
 	.quadro .fa{
@@ -215,7 +217,6 @@
 		align-self: center;
 	}
 	.localizacao h2{
-		font-family: 'Crete Round', serif;
 		font-size: 18px;
 		font-weight: normal;
 	}

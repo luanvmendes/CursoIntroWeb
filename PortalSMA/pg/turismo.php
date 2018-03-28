@@ -4,7 +4,6 @@
 		<title>SÃO MIGUEL ARCANJO</title>
 		<meta charset="utf-8" />
 		<link type="image/png" href="../logo.png" rel="shortcut icon" />
-		<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
 		<meta name="description" content="Página dedicada à cidade de São Miguel Arcanjo" />
 		<meta name="keywords" content="são miguel arcanjo, santuário, capital da uva, parque, preservação, fauna, flora, ecoturismo" />
 		<meta name="author" content="Luan" />
@@ -14,6 +13,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/8ecc1aa731.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
 	</head>
 	<body>
 		<?php include ("../includes/menu.html"); ?>
@@ -31,7 +31,7 @@
 							</h3>
 							<ul class="p-0">
 								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (15) 3279-0483</li>
-								<li><i class="fa fa-envelope" aria-hidden="true"></i> pe.carlosbotelho@fflorestal.sp.gov.br</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i> pe.carlosbotelho@<wbr>fflorestal.sp.gov.br</li>
 								<li><a href="https://www.facebook.com/PECB-Parque-Estadual-Carlos-Botelho-237591209642916/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
 							</ul>
 						</div>
@@ -46,7 +46,7 @@
 							</h3>
 							<ul class="p-0">
 								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (15) 3279-1495 [Noite] | (15) 99614-7994</li>
-								<li><i class="fa fa-envelope" aria-hidden="true"></i> reservas@parquedozizo.com.br</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i> reservas@<wbr>parquedozizo.com.br</li>
 								<li><a href="https://www.facebook.com/parquedozizo/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
 							</ul>
 						</div>
@@ -69,7 +69,7 @@
 							</h3>
 							<ul class="p-0">
 								<li><i class="fa fa-phone-square" aria-hidden="true"></i> (15) 99728-1752</li>
-								<li><i class="fa fa-envelope" aria-hidden="true"></i> parquedaoncaparda@gmail.com</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i> parquedaoncaparda@<wbr>gmail.com</li>
 								<li><a href="https://pt-br.facebook.com/parquedaoncaparda/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
 							</ul>
 						</div>

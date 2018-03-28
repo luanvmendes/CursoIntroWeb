@@ -4,7 +4,6 @@
 		<title>SÃO MIGUEL ARCANJO</title>
 		<meta charset="utf-8" />
 		<link type="image/png" href="../logo.png" rel="shortcut icon" />
-		<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
 		<meta name="description" content="Página dedicada à cidade de São Miguel Arcanjo" />
 		<meta name="keywords" content="são miguel arcanjo, santuário, capital da uva" />
 		<meta name="author" content="Luan" />
@@ -14,6 +13,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/8ecc1aa731.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
 	</head>
 	<body>		
 		<?php include ("../includes/menu.html"); ?>
@@ -86,7 +86,7 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="container-fluid bg-white py-3 rounded">
-							<h2>Links Úteis</h2>
+							<h2 class="text-center">Links Úteis</h2>
 							<ul class="p-0">
 								<div class="row">
 									<div class="col-md-6 mb-3">
