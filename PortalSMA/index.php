@@ -51,13 +51,13 @@
 							</ul>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="img/slide-eventos/seminario.png" alt="Seminário">
+									<img src="img/slide-eventos/evento1.jpg" alt="Seminário">
 								</div>
 								<div class="carousel-item">
 									<img src="img/slide-eventos/carnacao.jpg" alt="Palestra">
 								</div>
 								<div class="carousel-item">
-									<img src="img/slide-eventos/palestra.png" alt="Palestra">
+									<img src="img/slide-eventos/evento2.jpg" alt="Palestra">
 								</div>
 								<div class="carousel-item">
 									<img src="img/slide-eventos/festa-da-uva.jpg" alt="Festa da Uva 2018">
