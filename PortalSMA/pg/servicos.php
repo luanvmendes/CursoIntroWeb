@@ -87,7 +87,7 @@
 					<div class="col-12">
 						<div class="container-fluid bg-white py-3 rounded">
 							<h2 class="text-center">Links Úteis</h2>
-							<ul class="p-0">
+							<ul class="px-3">
 								<div class="row">
 									<div class="col-md-6 mb-3">
 										<li><a href="https://www.facebook.com/secretariamunicipaldeculturaeturismosma" target="_blank">Secretaria Municipal de Cultura e Turismo de São Miguel Arcanjo</a></li>
